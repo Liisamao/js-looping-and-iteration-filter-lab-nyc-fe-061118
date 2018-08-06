@@ -7,7 +7,7 @@ function fuzzyMatch (arr, name){
 }
 
 
-// [{name: "Sophie"}, {name: "Lisa"}]
+// [,{name: "Sophie"} {name: "Lisa"}]
 function matchName (arr, name){
-  return arr.filter(driver => driver.name === name);
+  return arr.filter(person => person.name === name);
 }
